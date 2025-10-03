@@ -31,12 +31,13 @@ import java.util.concurrent.TimeUnit;
  *
  * @author shuang.kou
  * @createTime 2020年05月25日 16:42:00
+ * @updateTime 2025年9月28日
  */
 @Slf4j
 @Component
 public class NettyRpcServer {
 
-    public static final int PORT = 9998;
+    public static final int PORT = 8080;
 
     private final ServiceProvider serviceProvider = SingletonFactory.getInstance(ZkServiceProviderImpl.class);
 
